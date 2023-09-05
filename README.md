@@ -1,0 +1,25 @@
+# MyProject
+Data-Driven Optimization of High-Dimensional Parameters in Proton Exchange Membrane Water Electrolysis Membrane Electrode Assembly assisted by Machine Learning
+1.	Artificial Neural Networks
+Artificial Neural network (ANN) modeling is a computational model based on biological nervous systems that is widely used in machine learning. It consists of multiple layers of artificial neurons that are capable of learning and capturing complex nonlinear relationships and patterns on smaller data sets. By adjusting the weights of connections in the neural network, the model can perform accurate prediction and classification with strong generalization ability.
+
+2. XGBoost
+XGBoost (eXtreme Gradient Boosting) is an efficient and powerful machine-learning algorithm for solving regression and classification problems. It is a variant of Gradient Boosting Trees that incrementally improves the performance of a model by integrating multiple weak learners (decision trees). The core idea of XGBoost is to iteratively train new decision trees by optimizing the loss function and combining them with existing trees. In each iteration, XGBoost updates the model by calculating the residuals and adding new trees to the model to further reduce the residuals. XGBoost uses regularization terms, such as penalty terms for leaf node weights and tree depth limits, to control model complexity and overfitting. XGBoost performs well on low-scale datasets, has parallelized processing capabilities, and supports multithreading and distributed computing. 
+
+3. AdaBoost
+AdaBoost (Adaptive Boosting) is an integrated learning algorithm designed to improve the accuracy of classification algorithms. It does this by iteratively training a series of weak classifiers and weighting the samples according to the accuracy of each classifier to progressively improve the performance of the overall model. The core concept of AdaBoost is that by adjusting the sample weights, samples that are difficult to classify are given higher weights so that subsequent classifiers pay more attention to these difficult-to-classify samples. The training process for each weak classifier is performed on samples with adjusted weights, which depends on the performance of prior classifiers.
+
+4. K-Nearest Neighbors
+K-Nearest Neighbors (KNN) is an instance-based supervised learning algorithm. The basic principle of the KNN algorithm is to make predictions based on the distances between samples in the KNN algorithm, when given an unlabeled sample, it will find the K closest neighbors to that sample in the training set. K can be any positive integer. Then, the label or predicted value of that sample is determined by taking the average (for regression issues). 
+
+5. Random Forest
+Random Forest (RF) is a powerful algorithm based on integrated learning and decision trees that constructs multiple decision trees and combines them to improve the accuracy and generalization of the model. Random Forest selects samples from the original training set using putative back sampling and constructs decision trees on each subset. The node division of each decision tree is based on a randomly selected subset of features. Ultimately, Random Forest determines the class or predictive value of the samples by taking the average. It has the advantages of high accuracy, robustness, and interpretability. 
+
+6. Lasso Regression
+Lasso Regression (LR) is a regularization method for linear regression that implements feature selection and model complexity control by introducing an L1 regularization term to penalize the model parameters. The key to Lasso Regression is to minimize the loss function while making the coefficients of certain features zero, which enables automatic feature selection and sparsity. Lasso Regression has the advantage of feature selection and model sparsity that can simplify the model and improve interpretability. 
+
+7. Support vector regression
+Support Vector Regression (SVR) is a regression algorithm based on Support Vector Machines (SVM) for solving regression problems. SVR maximizes the interval between the predicted values and the actual values by finding an optimal hyperplane in a high-dimensional feature space. It deals with nonlinear relationships using a kernel function and introduces tolerance ranges to limit the predicted values within a band of intervals on the hyperplane. SVR can fit nonlinear relationships well and robustly and is good at dealing with data with high discretization. 
+
+8. Elastic Net Regression
+Elastic Network Regression (ENR) is a linear regression method that combines L1 and L2 regularization for feature selection and model complexity control. Its goal is to find an optimal linear model in a regression problem that achieves both feature selection and parameter shrinkage. Elastic Network Regression implements penalties and constraints on the model parameters by introducing L1 and L2 regularization terms in the loss function to obtain sparse models and reduce the bias in parameter estimation. 
